@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manifestation App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Manifestation App</h1>
+        <div class="tabs">
+            <button id="mode-problem" class="active">Dissolve & Manifest</button>
+            <button id="mode-pure">Pure Manifestation</button>
+        </div>
+        <div id="problem-section" class="mode-section">
+            <h2>Dissolve a Problem</h2>
+            <input type="text" id="problem-input" placeholder="Describe your problem" />
+            <button id="add-problem">Add Problem</button>
+            <ul id="problem-list"></ul>
+        </div>
+        <div id="pure-section" class="mode-section" style="display:none;">
+            <h2>Manifest Intention</h2>
+            <input type="text" id="pure-input" placeholder="Your manifestation" />
+            <button id="add-pure">Manifest</button>
+        </div>
+        <h2>Manifestations</h2>
+        <ul id="manifestation-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
